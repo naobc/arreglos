@@ -2,15 +2,18 @@ import java.util.Scanner;
 
 public class Arreglos{
 
+    public static int T = 25;
+
     public static void leerCalificaciones(){
 
     }
 
-    public static void evaluarCalificaciones({
+    public static void evaluarCalificaciones(){
         
-    })
+    }
 
     public static void main(String[] args) {
+        double[] parcial1, parcial2, parcial3, parcial4;
         double[] calificaciones = new double[5];
         Scanner sc = new Scanner(System.in);
         for (int i=0; i<calificaciones.length; i++){
